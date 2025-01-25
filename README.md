@@ -40,8 +40,10 @@ MODEL_NAME='groq/llama-3.1-8b-instant'
 PROVIDER='groq'
 DATASET=<dataset_name>
 ```
+
+
 # Notes
 
-Ensure GROQ API key has credits
+Ensure GROQ API key has credits - or that you're using a free model
 Use virtual environment for isolated dependencies
 Check requirements.txt for versions
