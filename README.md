@@ -40,10 +40,13 @@ MODEL_NAME='groq/llama-3.1-8b-instant'
 PROVIDER='groq'
 DATASET=<dataset_name>
 ```
+### 5. Run the Benchmark
+While everything is setup in the virtual environment you should now run the benchmark
 
-
+```bash
+python src/benchmark.py
+```
 # Notes
-
 Ensure GROQ API key has credits - or that you're using a free model
 Use virtual environment for isolated dependencies
 Check requirements.txt for versions
