@@ -7,7 +7,7 @@ from datasets import load_dataset
 from config import GROQ_API_KEY, MODEL_NAME, PROVIDER, DATASET
 
 class HHHDataset(Dataset):
-    """Dataset class for handling HHH (Human Helpfulness Harm) benchmark data."""
+    """Dataset class for handling HHH (Helpful, Honest, & Harmless) benchmark data."""
 
     def __init__(self):
         """Initialize dataset by loading and formatting examples from HuggingFace."""
